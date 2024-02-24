@@ -45,6 +45,27 @@
               </g>
           </svg>
           
+          <!-- Gradient and text -->
+          <svg width="250" height="50" viewbox="0 0 250 50">
+            <defs>
+                <linearGradient id="myGradient">
+                    <stop offset="0%" stop-color="red" />
+                    <stop offset="50%" stop-color="black" />
+                    <stop offset="100%" stop-color="gold" />
+                </linearGradient>
+            </defs>
+            <text x="0" y="50" fill="url(#myGradient)" font-size="3rem">Colorful</text>
+          </svg>
+
+          <!-- Pattern -->
+          <svg width="300" height="200" viewBox="0 0 300 200">
+            <defs>
+                <pattern width="300" height="200" id="zigzag" patternUnits="userSpaceOnUse">
+                    <image width="300" height="200" xlink:href="http://placepattern.com/300/200" />
+                </pattern>
+            </defs>
+            <text class="pattern" x="0" y="100" fill="url(#zigzag)">Pattern</text>
+          </svg>
     </div>
 </body>
 </html>
