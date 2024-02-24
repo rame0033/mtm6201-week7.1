@@ -23,3 +23,37 @@
     font-size: 5rem;
     font-weight: 600;
 }
+
+.cls-1{fill:#ffe269;}
+.cls-2{fill:#fff;}
+.cls-3{fill:#fcf0c0;}
+
+.smileywrap{
+    max-width: 300px;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    
+    25%{
+        transform: translateX(10px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+    
+    75%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.pupil{
+    animation: move 1s infinite alternate;
+}
