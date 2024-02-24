@@ -4,6 +4,17 @@
     transform-origin: 25px 25px;
 }
 
+/* circle hover as individual element */
 .dice:hover circle{
+    transform: scale(1.2);
+}
+
+.dice5 g{
+    transition: all 0.3s;
+    transform-origin: 100px 100px;
+}
+
+/* circles hover as a group */
+.dice5:hover g{
     transform: scale(1.2);
 }
