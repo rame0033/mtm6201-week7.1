@@ -18,3 +18,8 @@
 .dice5:hover g{
     transform: scale(1.2);
 }
+
+.pattern{
+    font-size: 5rem;
+    font-weight: 600;
+}
